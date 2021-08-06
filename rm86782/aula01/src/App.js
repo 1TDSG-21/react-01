@@ -1,14 +1,11 @@
 import './App.css';
+import Cabecalho from './components/Cabecalho';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Java é melhor</h1>
-        <p>Olá, react!!</p>
-      </header>
+      <Cabecalho/>
     </div>
   );
 }
 
-export default App;
