@@ -1,18 +1,14 @@
-import logo from './logo.svg';
+import Cabecalho from './componentes/cabecalho/Cabecalho';
 import './App.css';
-import Cabecalho from './componentes/Cabecalho';
 
 export default function App() {
- 
+
   return (
    <>
     <div className="App">
-       <Cabecalho/>       
+      <Cabecalho/>
     </div>
-   </>
+  </>
   );
 
-
 }
-
-
