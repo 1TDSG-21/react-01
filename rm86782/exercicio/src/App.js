@@ -9,6 +9,9 @@ function App() {
       <Cabecalho/>
       <Carros/>
       <Parceiros/>
+      <footer>
+        <p>Eu fiz isso no github :)</p>
+      </footer>
     </div>
   );
 }
