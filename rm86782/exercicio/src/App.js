@@ -7,12 +7,14 @@ function App() {
   // Componente pai
   const listaDeCarros = ["Verona", "Veraneio", "Elba", "Miura", "Gurgel"]
   const nomeLista = "Carros antigos e bonitos"
+
+  const multiplicador = (firstNum, SecondNum) => firstNum * SecondNum
   
   return (
     <div className="App">
       <Cabecalho/>
       <Carros carrosAtrib={listaDeCarros} nmLista={nomeLista}/>
-      <Parceiros/>
+      <Parceiros multiplicador={multiplicador}/>
     </div>
   );
 }
