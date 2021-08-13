@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Cabecalho from './componentes/cabecalho/Cabecalho';
 
 export default function App() {
   return (
@@ -7,9 +8,7 @@ export default function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div>
-          <p>1TDSG - FIAP</p>
-          <p>Matheus Sanches Barreiros</p>
-          <p>RM87426</p>
+        <Cabecalho/>
         </div>
         
       </header>
