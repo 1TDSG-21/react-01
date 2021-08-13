@@ -1,0 +1,18 @@
+.lista-carros {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    margin: 80px 80px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.card-img {
+    border-radius: 30px;
+    border: solid white 2px;
+}
