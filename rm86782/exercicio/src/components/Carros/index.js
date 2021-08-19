@@ -1,17 +1,22 @@
 import React from "react";
 import carroProblema from "../../img/carroProblema.jpg";
+import "./style.css";
 
-export default function Carros() {
+export default function Carros(props) {
+    const lista = props.carrosAtrib.map((e, i) => {
+        return <li key={i}>{e}</li>
+    })
+
+
+
+    // Componente filho
     return(
-        <>
-            <img src={carroProblema} alt="Carro mais problemático do Brasil"/>
-            <ul>
-                <li>Fiat Palio</li>
-                <li>Peugeot 207</li>
-                <li>Ford New Fiesta</li>
-                <li>Fiat Idea.</li>
-                <li>Chery QQ</li>
+        <section className="card">
+            <h2 className="card-title">{props.nmLista}</h2>
+            <img className="card-img" src={carroProblema} alt="Carro mais problemático do Brasil"/>
+            <ul className="lista-carros">
+                {lista}
             </ul>
-        </>
+        </section>
     );
 }

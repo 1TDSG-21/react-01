@@ -1,0 +1,15 @@
+.cabecalho {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.titulo {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.texto {
+    margin-top: 5px;
+}
