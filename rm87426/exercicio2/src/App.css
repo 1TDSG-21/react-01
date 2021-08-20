@@ -4,28 +4,13 @@ body
     color: red;
 }
 
-.cabecalho
+.container
 {
-    background-color: orangered;
-    color: blueviolet;
-    font-size: 10px;
-    height: 100px;
     text-align: center;
+    font-family: cursive;
 }
 
-.corpo
+.container h1
 {
-    background-color: chartreuse;
-    color: brown;
-    font-size: 10px;
-    height: 700px;
-    text-align: center;
-}
-
-.rodape
-{
-    background-color: aqua;
-    color: crimson;
-    font-size: 70px;
-    height: 150px;
+    border: 3px solid purple;
 }
