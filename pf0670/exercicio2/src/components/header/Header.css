@@ -1,0 +1,11 @@
+.cabecalho{
+    background-color: cornflowerblue;
+    padding: 3%;
+    text-align: justify;
+    border:2px solid yellow;
+}
+
+.cabecalho h1{
+    background-color: cornflowerblue;
+    border:none;
+}

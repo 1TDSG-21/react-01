@@ -1,0 +1,9 @@
+section{
+    background-color: teal;
+    text-align: center;
+}
+
+section img{
+    display: block;
+    margin: auto;
+}

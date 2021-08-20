@@ -1,3 +1,20 @@
 body{
     background-color: #000;
+    color: #fff;
+}
+
+.container{
+    font-family: Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: darkgrey;
+    height: 800px;
+    max-width: 1100px;
+}
+
+.container h1{
+    text-align: center;
+    background-color: darkred;
+    border-radius: 5px;
+    border:3px solid yellow;
 }

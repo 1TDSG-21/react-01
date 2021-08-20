@@ -1,5 +1,6 @@
 import React from 'react'
 import imgLogoReact from '../img/logo192.png'
+import './Corpo.css'
 
 export default function Corpo() {
     return (
