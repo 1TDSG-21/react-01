@@ -1,10 +1,15 @@
 import React from 'react';
+import Header from './componentes/header/Header';
+import Corpo from './componentes/corpo/Corpo';
+import Footer from './componentes/footer/Footer';
 
 const App = () => {
     return (
-        <div>
-            <h1>Exercicio 2</h1>
-        </div>
+        <>
+            <Header/>
+            <Corpo/>
+            <Footer/>
+        </>
     );
 }
 
