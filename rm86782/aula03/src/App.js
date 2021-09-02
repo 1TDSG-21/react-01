@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from "react";
+import Demo from "./components/demo/Demo";
+import Features from "./components/features/Features";
+import Home from "./components/home/Home";
+import Pricing from "./components/pricing/Pricing";
+import Resource from "./components/resource/Resource";
+
 
 function App() {
+
+  const [componente, setComponente] = useState(<Home />)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <a href="#" onClick={() => setComponente(<Home />)}>Home</a>
+        <a href="#"onClick={() => setComponente(<Features />)}>Features</a>
+        <a href="#" onClick={() => setComponente(<Pricing />)}>Pricing</a>
+        <a href="#" onClick={() => setComponente(<Demo />)}>Demo</a>
+        <a href="#" onClick={() => setComponente(<Resource />)}>Resources</a>
       </header>
+      {componente}
     </div>
   );
 }
