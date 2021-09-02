@@ -5,6 +5,7 @@ import Pricing from '../pricing/Pricing'
 import Demo from '../demo/Demo'
 import Resource from '../resource/Resource'
 import  './Header.css'
+import Contato from '../contato/Contato'
 
 export default function Header() {
 
@@ -39,6 +40,7 @@ export default function Header() {
                     <a href="#" onClick={() => setComponente(<Pricing />)}>Pricing</a> |
                     <a href="#" onClick={() => setComponente(<Demo />)}>Demo</a> |
                     <a href="#" onClick={() => setComponente(<Resource />)}>Resource</a> |
+                    <a href="#" onClick={() => setComponente(<Contato />)}>Contato</a> |
                 </nav>
             </header>
 
