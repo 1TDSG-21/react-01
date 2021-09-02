@@ -16,3 +16,10 @@ section img
     width: 150px;
     margin: auto;
 }
+
+.exercicio
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
