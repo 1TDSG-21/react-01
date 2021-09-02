@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Item from '../src/components/item/Item'
+import Item from '../item/Item'
 
 export default function Lista() {
 

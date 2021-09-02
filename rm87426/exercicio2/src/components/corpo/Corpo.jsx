@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import capa_adesivos from '../../capa_adesivos.jpg'
-import Lista from '../../../lista/Lista'
+import Itens from '../itens/Itens'
+import Lista from '../lista/Lista'
 import './Corpo.css'
 
 export default function Corpo() {
     const [aluno, setAluno] = useState("Matheus")
+    const [elemento, setElemento] = useState(<p>TEXTO</p>)
     return (
         <>
         <section className="corpo">
@@ -25,6 +27,14 @@ export default function Corpo() {
             </div>
 
             <Lista/>
+
+            <div className="exercicio">
+                <div>
+                    {elemento}
+                </div>
+                <Itens elHtml={elemento} alteraEl={setElemento}/>
+                <button onClick = {() => setElemento(<em>TEXTO COM EM</em>) }>ALTERAR VALOR [USE STATE]</button>
+            </div>
 
         </section>
         </>
