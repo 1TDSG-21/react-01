@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 
 export default function Contato() {
 
-    const [carro, setcarro] = useState({'marca':'', 'modelo':''})
+    const [frase, setFrase] = useState('')
     return (
         <div>
-            <h2>Dados do Carro</h2>
-            Marca: <input name="marca" /> <br/>
-            Modelo: <input name="modelo" /> <br/>
+            <h2>Frase</h2>
+            Digite a Frase: <input name="marca" name="txtFrase" value={frase} onChange={(e) => setFrase(e.target.value)} /> <br/>
+            <p>A frase é: <span>{frase}</span></p>
         </div>
     )
 }
