@@ -5,7 +5,7 @@ let c = []
 export default function Carro() {
 
     const [carro, setCarro] = useState('')
-    const Carros = (e) => {
+    const Carros = () => {
         
         let b = document.getElementById('marca')
         c.push(b.value)
@@ -14,9 +14,9 @@ export default function Carro() {
 
     return (
         <div>
-            Marca  : <input id="marca" type="text" /> <br />
+            Marca do carro  : <input id="marca" type="text" /> <br />
             <button onClick={Carros}>Clica ai</button>
-            <span>{carro}</span>
+            Carro adicionado recentemente: <span>{carro}</span>
         </div>
     )
 }
