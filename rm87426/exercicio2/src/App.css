@@ -1,0 +1,16 @@
+body
+{
+    background-color: black;
+    color: red;
+}
+
+.container
+{
+    text-align: center;
+    font-family: cursive;
+}
+
+.container h1
+{
+    border: 3px solid purple;
+}
