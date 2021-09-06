@@ -17,7 +17,7 @@ export default function Carteirinha() {
     }
 
     return (
-        <div>
+        <div className="div-container">
             <img src={foto} alt="estudante" />
             <h1>NOME: Matheus</h1>
             <h1>RM  : 1</h1>
