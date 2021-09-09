@@ -1,9 +1,21 @@
 section{
     background-color: teal;
-    text-align: center;
+    text-align: justify;
+    font-size: 1.5em;
 }
 
 section img{
     display: block;
     margin: auto;
+}
+
+.exemplos{
+    background-color: brown;
+    
+}
+
+.exercicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
