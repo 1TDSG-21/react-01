@@ -3,7 +3,7 @@ import "./semaforo.css"
 
 
 export default function Semaforo() {
-    const [semaforoColor, setSemaforoColor] = useState("red")
+    const [semaforoColor, setSemaforoColor] = useState("")
     const [sinal, setSinal] = useState("Pare")
 
     const switchColor = () => {
@@ -21,7 +21,9 @@ export default function Semaforo() {
 
     return (
         <div>
-            <h2 className={semaforoColor}>{sinal}</h2>
+            <h2 className={sinal === "Pare" ? semaforoColor : ""}>Pare</h2>
+            <h2 className={sinal === "Atenção" ? semaforoColor : ""}>Atenção</h2>
+            <h2 className={sinal === "Siga" ? semaforoColor : ""}>Siga</h2>
             <button onClick={() => switchColor()}>Trocar</button>
         </div>
     )
