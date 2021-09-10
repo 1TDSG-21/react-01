@@ -1,0 +1,25 @@
+section
+{
+    
+    background-color: chartreuse;
+    color: brown;
+    font-size: 10px;
+    height: 500px;
+    text-align: center;
+    font-family: cursive;
+}
+
+section img
+{
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+.exercicio
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
