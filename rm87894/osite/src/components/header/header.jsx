@@ -1,6 +1,6 @@
 import React from "react"
 import { Switch, Route, Link } from 'react-router-dom'
-import Contato from "../contanto/contato"
+import Contato from "../contato/contato"
 import Imagens from "../imagens/imagens"
 import Servicos from "../servicos/servicos"
 import Sobre from "../sobre/sobre"
